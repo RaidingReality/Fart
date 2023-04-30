@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Poop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/epicmod/block/PoopBlock.java",
+          "src/main/resources/assets/epicmod/blockstates/poop.json",
+          "src/main/resources/assets/epicmod/models/item/poop.json",
+          "src/main/resources/assets/epicmod/models/block/poop.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.epicmod.poop": "Poop"
+    }
   },
   "foldersRoot": {
     "name": "~",

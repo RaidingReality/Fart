@@ -29,9 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.epicmod.init.EpicmodModItems;
-import net.mcreator.epicmod.init.EpicmodModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -50,9 +47,6 @@ public class EpicmodMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		EpicmodModBlocks.REGISTRY.register(bus);
-		EpicmodModItems.REGISTRY.register(bus);
 
 	}
 
